@@ -1,0 +1,18 @@
+test accuracy: 0.9275
+test macro-F1: 0.8993
+
+              precision    recall  f1-score   support
+
+        none     0.9618    0.9415    0.9515      1950
+      Center     0.9411    0.9425    0.9418       644
+       Donut     0.7573    0.9398    0.8387        83
+    Edge-Loc     0.8687    0.8832    0.8759       779
+   Edge-Ring     0.9847    0.9731    0.9789      1452
+         Loc     0.8301    0.7885    0.8088       539
+      Random     0.8170    0.9615    0.8834       130
+     Scratch     0.8019    0.9274    0.8601       179
+   Near-full     0.9545    0.9545    0.9545        22
+
+    accuracy                         0.9275      5778
+   macro avg     0.8797    0.9236    0.8993      5778
+weighted avg     0.9292    0.9275    0.9278      5778
